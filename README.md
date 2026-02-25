@@ -42,7 +42,7 @@ GamePlan/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/amacthedev/GamePlan.git
+https://github.com/Gameplan-Platform/GamePlan.git
 cd GamePlan
 
 # 2. Install all dependencies
