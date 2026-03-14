@@ -1,5 +1,6 @@
 import express from "express";
 import healthRoutes from "./routes/health.routes";
+import userRoutes from "./routes/users.routes";
 import authRoutes from "./routes/auth.routes";
 import teamsRoutes from "./routes/teams.routes";
 
@@ -12,5 +13,6 @@ app.use(express.json());
 app.use("/api", healthRoutes); 
 app.use("/auth", authRoutes);
 app.use("/teams", teamsRoutes);
+app.use("/api/users", userRoutes);
 
 export default app;
