@@ -13,5 +13,6 @@ app.use(express.json());
 app.use("/api", healthRoutes); 
 app.use("/auth", authRoutes);
 app.use("/teams", teamsRoutes);
+app.use("/api/users", userRoutes);
 
 export default app;
